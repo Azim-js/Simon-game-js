@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    background-image: url("/img/back2.jpg");
+    background-size:cover;
+    opacity: 0.9 ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#title{
+    position:absolute;
+    top:0;
+    left:0;
+    padding:0 10px;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    /* font-style: oblique; */
+    color:rgb(255, 255, 255) ;
+    
+}
+
+/* .group1{
+    position:fixed;
+    justify-content: center;
+    top:130px;
+}
+
+.group2{
+    position:fixed;
+    justify-content: center;
+    top:340px;
+} */
+
+
+.button {
+    margin: 10px;
+    height:200px;
+    width:200px;
+    
+    /* border-radius: 3px; */
+}
+
+.btn-start {
+    display:inline-block;
+    font-size:1.6em;
+    background:rgb(56,48,67);
+    padding:10px 30px;
+    text-decoration:none;
+    color:#111;
+    margin-top:10px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+.btn-start:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+    color:white;
+}
+
+.btn-red{
+    background-color: rgb(101, 43, 116);
+    transition: background-color 0.7s;
+}
+.btn-red:hover{
+    background-color: rgba(70, 19, 61, 0.61);
+}
+.btn-lightred{
+    background-color: rgb(173, 1, 142);
+}
+
+.btn-yellow{
+    background-color: rgb(124, 106, 3);
+    transition: background-color 0.7s;
+}
+.btn-lightyellow{
+    background-color: rgb(219, 186, 0);
+}
+.btn-yellow:hover{
+    background-color: rgba(173, 148, 3, 0.616);
+}
+
+.btn-blue{
+    background-color: rgb(0, 0, 109);
+    transition: background-color 0.7s;
+}
+.btn-lightblue{
+    background-color: rgb(3, 191, 216);
+}
+.btn-blue:hover{
+    background-color: rgba(0, 0, 109, 0.616);
+}
+
+.btn-green{
+    background-color: rgb(22, 58, 5);
+    transition: background-color 0.5s;
+}
+.btn-lightgreen{
+    background-color: rgb(55, 175, 0);
+}
+.btn-green:hover{
+    background-color: rgba(22, 58, 5, 0.616);
+}
+
+/* .p1{
+    font-size: 80px;
+    position: absolute;
+    left:0;
+    align-items: center;
+    bottom:50px;
+} */
+/* 
+#level{
+    font-size: 80px;
+    position: absolute;
+    left:0;
+    align-items: center;
+    bottom:50px;
+}
+#status{
+    font-size: 80px;
+    position: absolute;
+    left:0;
+    align-items: center;
+    bottom:50px;
+
+} */
+
+footer{
+    position: absolute;
+    color:white;
+    right:0;
+    bottom:0;
+}
+
+p{
+
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+
+}
